@@ -1,0 +1,21 @@
+{
+    "name": "Next.js Video Generation Project",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.validate.enable": false,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "softwaredotcom.dracula-theme"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
