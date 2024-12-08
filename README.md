@@ -1,6 +1,15 @@
 # Sample Video Generation AI Website <JavaScript/Next.JS>
 
-This Next.js application generates videos based on client-provided queries. It is designed as a SaaS platform, allowing users to easily create engaging video content for various purposes such as marketing, education, or social media. The app leverages cutting-edge technologies to provide a smooth user experience and high-quality video output
+This Next.js application generates videos based on client-provided queries. It is designed as a SaaS platform, allowing users to easily create engaging video content for various purposes such as marketing, education, or social media. The app uses the following technologies to provide a smooth user experience and high-quality video output:
+
+1. NextJs Framework (JavaScript not TS)
+2. Clerk Authentication Service
+3. Spline 3D Model Asset
+4. Tailwind CSS and Shadcn/UI + Sonner
+5. Neon Database and Drizzle ORM for Saving files and management of user data
+6. Remotion Video to generate videos
+7. OpenAI, ElevenLabs, AssemblyAI, & HugginFace API for different services
+8. Framer Motion for better UX
 
 ---
 
